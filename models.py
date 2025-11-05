@@ -108,7 +108,7 @@ class ShallowModels:
                 model_info['params'],
                 cv=3, #cv
                 scoring='accuracy',
-                n_jobs=6, #Específico para a instância da AWS
+                n_jobs=6, #Específico para o computador específico com 6 threads
                 verbose=1
             )
             
